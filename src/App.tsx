@@ -1,10 +1,9 @@
+import Nav from "./Components/Nav"
 
-function App() {
+export default function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <Nav />
     </div>
   )
 }
-
-export default App
