@@ -105,7 +105,7 @@ const Nav = () => {
 </div>
   </li>
 
-          <li className="hover:text-red-600 cursor-pointer">
+          <li className="hover:text-red-600 cursor-pointer font-lato">
             <div className="">
             Solutions
             </div>
