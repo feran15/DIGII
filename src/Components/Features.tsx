@@ -68,7 +68,7 @@ const Features = () => {
         <div>
           <img 
             className="w-full md:w-[90%] mx-auto" 
-            src="/creen.webp" 
+            src="/203.webp" 
             alt="Allotment tracking dashboard"
           />
         </div>
@@ -103,6 +103,74 @@ const Features = () => {
             <li>⨠ Gates Pass Workflows to Manage Student Entry and Exit</li>
             <li>⨠ Parent-Based Leave Approval System</li>
             <li>⨠ Real-Time Notifications to Students and Parents</li>
+          </ul>
+        </div>
+      </div>
+
+
+        {/* -------- Feature 4 -------- */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center mt-26">
+        
+        {/* Text (comes first for alternating layout) */}
+        <div>
+          <h5 className="font-semibold text-xl mb-4">
+            Hostel Service Management
+          </h5>
+
+          <p className="mb-4 text-gray-700 leading-relaxed">
+           Now you can easily handle housekeeping, maintainance, and <br /> general hostel service 
+           workflows via a single dashboard. The <br /> module offers escalation capabilities for enhanced 
+           <br />accountability and measure effectiveness at each service level
+          </p>
+
+          <ul className="space-y-2 text-gray-700">
+            <li>⨠ 100+ Maintenance, House-Keeping, and other General Service- Related Workflows</li>
+            <li>⨠ Multi-Level Escalation for Better Accountability</li>
+            <li>⨠ Dashboards to Measure Effectiveness and Efficiency at Each Service <br /> Level</li>
+            <li>⨠ Escalation for Quick Resolution</li>
+          </ul>
+        </div>
+
+        {/* Image */}
+        <div>
+          <img 
+            className="w-full md:w-[90%] mx-auto" 
+            src="/11.webp" 
+            alt="Allotment tracking dashboard"
+          />
+        </div>
+      </div>
+
+
+
+           {/*--------- Feauture 3 -------- */}
+               <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center mt-25">
+        
+        {/* Image */}
+        <div>
+          <img 
+            className="w-full md:w-[90%] mx-auto" 
+            src="/51.webp" 
+            alt="Hostel management dashboard"
+          />
+        </div>
+
+        {/* Text */}
+        <div>
+          <h5 className="font-semibold text-xl mb-4">
+            Hostel Fee Management
+          </h5>
+
+          <p className="mb-4 text-gray-700 leading-relaxed">
+          Our unified payment system accomodates both offline and <br /> online payment methods. Additionally,
+          the software sends <br /> timely notifications to ensure parents and students are <br /> reminded 
+          of upcoming hostel fee payment dates
+          </p>
+
+          <ul className="space-y-2 text-gray-700">
+            <li>⨠ Unified Payment System for Easy Transactions</li>
+            <li>⨠ Real-Time Notifications to Students and Parents</li>
+            <li>⨠ Download Fee Submission Report</li>
           </ul>
         </div>
       </div>
