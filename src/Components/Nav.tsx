@@ -117,7 +117,7 @@ const Nav = () => {
         </ul>
 
         {/* Desktop CTA */}
-        <button className="hidden md:block px-6 py-2 rounded-full border-2 border-red-500 text-red-500 hover:bg-red-500 hover:text-white transition">
+        <button className="hidden md:block px-6 py-2 rounded-full border-2 border-red-500 text-red-500 hover:bg-red-500 hover:text-white transition hover:cursor-pointer">
           Request a Demo
         </button>
 
@@ -191,7 +191,7 @@ const Nav = () => {
             <li>New initiatives</li>
             <li>Company</li>
 
-            <button className="mt-6 px-6 py-2 rounded-full bg-red-500 text-white">
+            <button className="mt-6 px-6 py-2 rounded-full bg-red-500 text-white hover:cursor-pointer">
               Request a Demo
             </button>
           </ul>
